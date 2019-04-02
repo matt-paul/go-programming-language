@@ -16,6 +16,8 @@ Go has the concept of a 'naked' return, however it can harm readability so only 
 
 If an initializer for a var declaration is included, the type can be ommited.
 
+#### Pointers
+
 & in front of variable name is used to retrieve the address of where this variable’s value is stored. That address is what the pointer is going to store.
 
 - in front of a type name, means that the declared variable will store an address of another variable of that type (not a value of that type).
